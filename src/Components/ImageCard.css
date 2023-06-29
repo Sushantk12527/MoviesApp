@@ -1,0 +1,75 @@
+body{
+    background-color: #23254a
+}
+
+.imgDiv{
+    height: 400px;
+    width: 250px;
+    float:left;
+    margin: 15px 10px 15px 10px;
+    background-size: contain;
+}
+
+.img{
+    height: 80%;
+    width: inherit;
+}
+
+.titleDiv{
+    background-color: #373b69;
+    height: 20%;
+    width: inherit;
+    margin-top: 128%
+}
+
+.titleSpan{
+    float: left;
+    height: inherit;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: large;
+    font-family: monospace;
+    color: aliceblue;
+    width: 70%;
+
+}
+
+.ratingSpanGood{
+    float: right;
+    height: 28%;
+    width: 11%;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 5%;
+    background-color: #062c07;
+    color: rgb(16, 136, 3);
+}
+
+.ratingSpanBad{
+    float: right;
+    height: 28%;
+    width: 11%;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 5%;
+    background-color: #433f35;
+    color: darkgoldenrod;
+}
+
+.overviewDiv{
+    
+    height: 50%;
+    
+
+    background-color: white;
+    margin-top: 80%;
+    height: 50%;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+
+.overlayEff{
+    background-color: aliceblue;
+}
